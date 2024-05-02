@@ -1,0 +1,48 @@
+#logo {
+    size: 100px 100px;
+}
+
+#inputForm {
+    color: black;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#num {
+    margin-left: 212px;
+    margin-bottom: 10px;
+    max-width: 125px;
+}
+
+#multiplicationTable {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.col {
+    padding: 0 10px;
+}
+
+body {
+    background-color: black;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 75px    
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}  
