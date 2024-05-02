@@ -1,7 +1,9 @@
+var n;
+
 document.getElementById("inputForm").addEventListener("submit", function(event) {
     event.preventDefault();
     
-    var numInput = document.getElementById("num").value;
+    n = parseInt(document.getElementById("num").value);
     var tableBody = document.getElementById("tableBody");
 
     tableBody.innerHTML = "";
@@ -11,8 +13,8 @@ document.getElementById("inputForm").addEventListener("submit", function(event) 
         var cell1 = row.insertCell(0);
         var cell2 = row.insertCell(1);
         
-        cell1.textContent = numInput + " x " + i;
-        cell2.textContent = i * numInput;
+        cell1.textContent = n + " x " + i;
+        cell2.textContent = i * n;
     }
 
     document.getElementById("multiplicationTable").style.display = "table";
